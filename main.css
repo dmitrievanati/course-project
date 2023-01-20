@@ -1,0 +1,91 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background: #17191c;
+  line-height: 1.42px;
+  -webkit-font-smoothing: antialiased ;
+  -moz-osx-font-smoothing: grayscale ;
+}
+a {
+  color: inherit;
+}
+.wraperr {
+  position: relative;
+  width: 1142px;
+  margin: 0px auto;
+}
+
+.header {
+  position: relative;
+  height: 80px;
+}
+.logo {
+  display: inline;
+  color: #fff;
+  position: absolute;
+  top: 21px;
+  left: 0px;
+}
+
+.menu {
+  position: absolute;
+  left: 400px;
+}
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px;
+}
+.menu__link {
+  font-size: 14px;
+}
+
+.contacts {
+  position: absolute;
+  font-style: normal;
+  text-align: right;
+  top: 21px;
+  right: 0px;
+}
+.contacts__tel {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.contacts__chart {
+  position: relative;
+  font-size: 13px;
+  text-decoration: underline;
+  top: 15px;
+  color: #FF3D00;
+}
+
+.preview {
+  position: relative;
+  text-align: center;
+  height:300px;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.preview__title {
+  font-size: 46px;
+  font-weight: bolder;
+}
+
+.preview-text {
+  position: absolute;
+  font-size: 14px;
+  top: 20;
+  margin-bottom: 15px;
+}
+
+.button {
+  position: relative;
+  background: #FF3D00;
+  border-radius: 35px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  top: 20px;
+}

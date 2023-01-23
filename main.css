@@ -66,7 +66,7 @@ h1 h2 h3 h4 h5 h6 {
 
 
 .menu {
-  top: 42px;
+  top: 38px;
   left: 50%;
   transform: translateX(-50%);
 }  
@@ -227,7 +227,9 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 
-
+.news {
+  margin-bottom: 190px;
+}
 .news__title {
   font-weight: 800;
   font-size: 36px;
@@ -241,7 +243,6 @@ h1 h2 h3 h4 h5 h6 {
   vertical-align: top;
   position: relative;
   margin-right: 22px;
-  margin-bottom: 47px;
 }
 .news__item:last-child {
   margin-right: 0;
@@ -277,8 +278,9 @@ h1 h2 h3 h4 h5 h6 {
 
 
 .paginator {
+  position: relative;
   text-align: center;
-  margin-bottom: 144px;
+  top: 47px;
 }
 .paginator__display,.paginator__list,.paginator__item {
   display: inline-block;
@@ -360,32 +362,33 @@ h1 h2 h3 h4 h5 h6 {
   border-top: 1px solid #2E3032;
 }
 
-.logo2,.menu2,.contacts2,.socials {
+.footer .logo,.footer .menu,.socials,.footer .contacts {
   position: absolute;
 }
-.logo2 {
+
+.footer .logo {
   display: inline-block;
   left: 0;
   top: 40px;
 }
-.menu2 {
+.footer .menu {
   top: 56px;
-  left: 328px
+  left: 458px;
 }
-.menu2__item {
+.footer .menu__item {
   display: inline-block;
   vertical-align: middle;
   margin-right: 50px;
   font-size: 14px;
   line-height: 19px;
 }
-.menu2__item:last-child {
+.footer .menu__item:last-child {
   margin-right: 0;
 }
 
 .socials {
   top: 49px;
-  margin-left: 700px;
+  right: 264px;
 }
 .socials__item {
   display: inline-block;
@@ -396,19 +399,19 @@ h1 h2 h3 h4 h5 h6 {
   margin-right: 0;
 }
 
-.contacts2 {
+.footer .contacts {
   font-style: normal;
   text-align: right;
   top: 44px;
   right: 0px;
 }
-.contacts2__text {
+.footer .contacts__text {
   font-size: 11px;
   line-height: 20px;
   color:  #9A9A9A;
 }
 
-.contacts2__tel {
+.footer .contacts2__tel {
   position: relative;
   font-size: 26px;
   line-height: 20px;
